@@ -5,4 +5,78 @@
 body{
    font-family: "Comfortaa", sans-serif; 
    margin: 0;
+   font-size: 16px;
+   font-weight: 400;
+   background-color: #F3F6FD;
 }
+
+/* ---------------------------------------- */
+
+.logo{
+    margin-bottom: 50px;
+}
+.panel{
+    background: white;
+    min-height: 100vh;
+    padding: 30px;
+    width: 126px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.menu__item{
+    background-color: #fff;
+    width: 46px;
+    height: 45px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0px 8px 14px 0px rgba(62, 107, 224, 0.12);
+    cursor: pointer;
+}
+
+.menu__item_active{
+    background-color: #6A6Afb;
+}
+.menu__item_active img{
+    filter: brightness(0) invert(1);
+}
+
+
+.menu__item:hover{
+    background-color: #6A6Afb;
+}
+
+.menu__item:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.menu__add{
+    border: 1px solid #CAD5FF;
+    width: 46px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: #fff;
+}
+
+.menu__add:hover{
+    background-color: #CAD5FF;
+}
+
+.menu__add:hover img{
+    filter: brightness(0) invert(1);
+}
+
+/* ---------------------------------------- */
